@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="10dp"
+    android:padding="10dp"
    >
 
     <TextView
@@ -43,6 +43,7 @@
         android:layout_height="wrap_content">
 
     <CheckBox
+        android:id="@+id/cbTax"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Include Tax 7%"
@@ -64,7 +65,8 @@
         android:layout_marginTop="10dp"
         android:text="price"
         android:textSize="12dp"/>
-    <TextView
+    <EditText
+        android:id="@+id/tvPrice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffb7d0ca"
